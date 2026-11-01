@@ -3,21 +3,26 @@
 [Homebrew](https://brew.sh) formulas for my projects.
 
 ```sh
+brew tap tlpinney/tap
+brew trust --formula tlpinney/tap/<formula>
 brew install tlpinney/tap/<formula>
 ```
 
-or tap once and use the short name:
+Homebrew asks you to trust formulas from taps outside Homebrew itself;
+`brew trust --formula` trusts just that one (`brew trust --tap tlpinney/tap`
+would trust everything here). For example:
 
 ```sh
 brew tap tlpinney/tap
-brew install <formula>
+brew trust --formula tlpinney/tap/mapterm
+brew install tlpinney/tap/mapterm
 ```
 
 ## Formulas
 
 | Formula | What it is |
 |---|---|
-| `mapterm` | A map in your terminal: OpenStreetMap vector tiles drawn with braille characters, and a ratatui map widget. [mapterm.com](https://mapterm.com) · [source](https://github.com/tlpinney/mapterm). The formula is coming with mapterm 0.1.1. |
+| `mapterm` | A map in your terminal: OpenStreetMap vector tiles drawn with braille characters, and a ratatui map widget. [mapterm.com](https://mapterm.com) · [source](https://github.com/tlpinney/mapterm) |
 
 ## Notes
 
