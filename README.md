@@ -23,7 +23,7 @@ brew install tlpinney/tap/mapterm
 | Formula | What it is |
 |---|---|
 | `mapterm` | A map in your terminal: OpenStreetMap vector tiles drawn with braille characters, and a ratatui map widget. [mapterm.com](https://mapterm.com) · [source](https://github.com/tlpinney/mapterm) |
-| `skycast` | Weather in your terminal: forecast, air quality, US alerts, Braille radar, sun and moon, and tides. [source](https://github.com/tlpinney/skycast) |
+| `skycast` | Weather in your terminal: forecast, air quality, US alerts, Braille radar, sun and moon, and tides. Installs the release binary on macOS (signed and notarized) and Linux x86-64. [source](https://github.com/tlpinney/skycast) |
 
 ## Notes
 
