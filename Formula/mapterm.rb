@@ -1,8 +1,8 @@
 class Mapterm < Formula
   desc "Map in your terminal: OpenStreetMap vector tiles drawn with braille"
   homepage "https://mapterm.com"
-  url "https://github.com/tlpinney/mapterm/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "be5144d57d1a10d2a2ed8371f557de5c7f554c2ee94fd05b9a32982665ab7c84"
+  url "https://github.com/tlpinney/mapterm/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "f0ce03edf576893f7161d371b283dbe0e828ccc91312a62d88fbb3a6f7cd0fda"
   license "MIT"
   head "https://github.com/tlpinney/mapterm.git", branch: "main"
 
